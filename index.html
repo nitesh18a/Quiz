@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<meta name="viewport" content="width=device-width", intial-scale=1.0, maximum-scale=1.0, user-scalable="no">
+	<link rel="stylesheet" type="text/css" href="prep.css">
+</head>
+<body class="">
+	<div class="main">
+		<div class="row1"></div>
+		<div class="row2">
+			<div class=" pallete" style="float: left;" >
+				<div class="circles">
+					<div id="0" class="circle">1</div>
+					<div id="1" class="circle">2</div>
+					<div id="2" class="circle">3</div>
+					<div id="3" class="circle">4</div>
+					<div id="4" class="circle">5</div>
+					<div id="5" class="circle">6</div>
+					<div id="6" class="circle">7</div>
+					<div id="7" class="circle">8</div>
+					<div id="8" class="circle">9</div>
+				</div>
+			</div>
+			<div class=" timer" style="float: left;"><span></span></div>
+		</div>
+		<div class="row3">
+			<div class="line1">Question: <span></span></div>
+			<div class="question">question comes here</div>
+			<div class="line3">
+				<input type="radio" id="ans1" class="answer" name="answer" />
+				<label for="ans1" id="option1" class="label1" >
+		           Normal
+		        </label><br>
+		        <input type="radio" id="ans2" class="answer" name="answer" /> 
+		        <label for="ans2" id="option2" class="label1">
+		          History
+		        </label><br>
+		        <input type="radio" id="ans3" class="answer" name="answer" >
+				<label for="ans3" id="option3" class="label1">
+		          Normal
+		        </label><br>
+		        <input type="radio" id="ans4" class="answer" name="answer" /> 
+		        <label for="ans4" id="option4" class="label1">
+		          History
+		        </label>
+			</div>
+			<div class="line4">
+				<span class="checkbox"><input type="checkbox" id="review" name="review"> <label for="review" class="label2" id="mark"> Mark for Review & Next</label></span>
+				<span><button class="clear" id="clear" name="clear">Clear</button></span>
+			</div>
+		</div>
+		<div class="row4">
+			<button class="prev" id="prev">Prev</button>
+			<button class="next" id="next">Next</button>
+			<button class="submit" id="submit">Submit</button>
+
+		</div>
+  </div>
+  <div id="app"></div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/script.js"></script>
+</html>
